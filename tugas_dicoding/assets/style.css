@@ -13,6 +13,7 @@
 /* navbar */
     nav {
         padding-top: 10px;
+        z-index: 1;
     }
 
     .header {
@@ -111,6 +112,8 @@
         background-position: 0 -180px;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        margin-bottom: 80px;
+        height: 100vh;
     }
 
     .jumbotron h1{
@@ -319,6 +322,8 @@
     /* awal jumbotron */
     .jumbotron {
         background-size: cover;
+        height: 80vh;
+
     }
     .jumbotron .gambar h1 {
         padding-top: 30px;
